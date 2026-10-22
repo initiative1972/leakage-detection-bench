@@ -1,0 +1,7 @@
+# Core benchmark + grader + deterministic baselines have ZERO runtime
+# dependencies: pure Python standard library only. This keeps the eval
+# harness trivially reproducible and offline.
+
+# Optional, only if you want to load the dataset through the Hugging Face
+# `datasets` library (not required for anything in this repo):
+#   pip install datasets

@@ -1,0 +1,110 @@
+[
+  {
+    "n_items": 36,
+    "detection": {
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1": 0.9474,
+      "accuracy": 0.9444,
+      "tp": 18,
+      "fp": 0,
+      "fn": 2,
+      "tn": 16
+    },
+    "diagnosis": {
+      "n_leaky": 20,
+      "type_accuracy": 0.9,
+      "localisation_jaccard": 0.9167
+    },
+    "aggregate": 0.927,
+    "solver": "heuristic",
+    "recall_by_type": {
+      "group_leakage": 0.75,
+      "preprocessing_leakage": 1.0,
+      "proxy_leakage": 0.75,
+      "target_leakage": 1.0,
+      "temporal_leakage": 1.0
+    }
+  },
+  {
+    "n_items": 36,
+    "detection": {
+      "precision": 0.8,
+      "recall": 1.0,
+      "f1": 0.8889,
+      "accuracy": 0.8611,
+      "tp": 20,
+      "fp": 5,
+      "fn": 0,
+      "tn": 11
+    },
+    "diagnosis": {
+      "n_leaky": 20,
+      "type_accuracy": 0.8,
+      "localisation_jaccard": 1.0
+    },
+    "aggregate": 0.8844,
+    "solver": "keyword_naive",
+    "recall_by_type": {
+      "group_leakage": 1.0,
+      "preprocessing_leakage": 1.0,
+      "proxy_leakage": 1.0,
+      "target_leakage": 1.0,
+      "temporal_leakage": 1.0
+    }
+  },
+  {
+    "n_items": 36,
+    "detection": {
+      "precision": 0.5556,
+      "recall": 1.0,
+      "f1": 0.7143,
+      "accuracy": 0.5556,
+      "tp": 20,
+      "fp": 16,
+      "fn": 0,
+      "tn": 0
+    },
+    "diagnosis": {
+      "n_leaky": 20,
+      "type_accuracy": 0.2,
+      "localisation_jaccard": 0.0
+    },
+    "aggregate": 0.4171,
+    "solver": "always_leak",
+    "recall_by_type": {
+      "group_leakage": 1.0,
+      "preprocessing_leakage": 1.0,
+      "proxy_leakage": 1.0,
+      "target_leakage": 1.0,
+      "temporal_leakage": 1.0
+    }
+  },
+  {
+    "n_items": 36,
+    "detection": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1": 0.0,
+      "accuracy": 0.4444,
+      "tp": 0,
+      "fp": 0,
+      "fn": 20,
+      "tn": 16
+    },
+    "diagnosis": {
+      "n_leaky": 20,
+      "type_accuracy": 0.0,
+      "localisation_jaccard": 0.0
+    },
+    "aggregate": 0.0,
+    "solver": "always_clean",
+    "recall_by_type": {
+      "group_leakage": 0.0,
+      "preprocessing_leakage": 0.0,
+      "proxy_leakage": 0.0,
+      "target_leakage": 0.0,
+      "temporal_leakage": 0.0
+    }
+  }
+]

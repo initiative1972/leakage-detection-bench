@@ -1,0 +1,18 @@
+{
+  "title": "LeakBench: A Labelled Benchmark for Data-Leakage Detection in ML Task Specifications",
+  "description": "An expert-authored, labelled benchmark for detecting data leakage in machine-learning task specifications, with a deterministic grader, reproducible non-LLM baselines, a leaderboard, an LLM-judge adapter interface, and contamination controls (canary string + near-duplicate check). Public/synthetic content only; no private or employer data.",
+  "upload_type": "dataset",
+  "access_right": "open",
+  "license": "MIT",
+  "version": "1.0.0",
+  "keywords": [
+    "data leakage",
+    "evaluation benchmark",
+    "machine learning evaluation",
+    "dataset",
+    "reproducibility"
+  ],
+  "creators": [
+    { "name": "Yan, Henry" }
+  ]
+}
